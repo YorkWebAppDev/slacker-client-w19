@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+aside {
+  width: 50%;
+  display : inline-block;
+}
+
+aside img {
+  width: 80%;
+  heigth : auto;
+}
+
+main {
+  width: 48%;
+  vertical-align:top;
+  display: inline-block;  
+}
+
+section, h1 {
+  display : inline-block;  
+  width : 100%;
+}
+
+
+@media (max-width: 768px) {
+
+  aside {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  aside img {
+    width: 100%;
+    height :auto;
+  }
+}
+
+
