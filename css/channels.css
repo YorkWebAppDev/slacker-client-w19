@@ -1,0 +1,147 @@
+
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+html, body {
+	height : 100%;
+	margin : 0px;
+}
+
+nav {
+	display: inline-block;
+	height : 5rem;
+	background-color: #1c1b43;
+	width : 100%;
+	float:left;
+}
+
+nav section {
+	float:right;
+	color : white;
+	display: inline-block;
+	line-height: 100%;	
+}
+
+nav section span {
+	font-size: 1rem;
+	line-height: 5rem;
+	display: inline-block;
+	padding: 0 1rem 0 2rem;
+}
+
+nav section span a {
+	color : white;
+	text-decoration: none;	
+}
+
+nav span#app-name {
+	color : white;	
+	font-size: 1.5rem;
+	line-height: 5rem;
+	float:left;
+}
+
+
+aside {
+	width : 20rem;
+	display: inline-block;
+	float: left;
+	background-color: #76768e;
+	padding-top : 1rem;
+	height: 100%;
+	margin : 0.5rem;
+}
+
+aside article span {
+
+	padding-left: 1rem;
+	line-height: 3rem;
+	font-size: 1.2rem;
+	color: white;
+}
+
+aside h1 {
+	text-align: center;
+	color: white;	
+	font-size : 1.5rem;
+}
+
+main {
+	display :inline-block;
+	width : 60%;		
+	padding : 10px 10px;	
+	height: 100%;
+	float: left;
+}
+
+div {
+	display :inline-block;
+}
+
+#messages-list {
+	margin : auto 0;
+	height: 35em;
+	overflow-y: scroll;
+	border: 1px blue solid;		
+	padding: 0.2rem 1rem;		
+}
+
+
+.message-row {
+	display: inline-block;
+	width :100%;
+	margin-bottom: 20px;
+}
+
+.message-image {
+	display : inline-block;
+	width : 10%;	
+	float : left;
+	min-width: 30px;
+	max-width: 30px;			
+}
+
+.message-image img {
+	max-width: 60px;
+}
+
+.message-meta-text {
+	display : inline-block;
+	width : 90%;	
+	float : right;	
+	padding : 0.2em 0.2em 0.2em 0.2em;					
+}				
+
+.message-text {
+	display : inline-block;
+	width : 100%;	
+	float : left;	
+}	
+.message-time {
+	display : inline-block;
+	font-size: 0.8rem;	
+}				
+
+.message-author {
+	display: inline-block;
+	vertical-align: top;				
+	font-weight: bold;	
+	padding : 0.2em 2em 0.2em 0em;
+	width : 5rem;	
+}		
+
+.message-box {
+	width : 80%;
+	font-size: 1em;
+	margin : 1em, auto;
+	height : 5em;
+}		
+
+.footer-block {
+	vertical-align: bottom;
+	position: fixed;
+	width: 95%;
+	bottom : 2em;
+	height: 5em;
+}

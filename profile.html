@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset ="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ramses Trejo's Profile </title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="css/profile.css">  
-  </head>
-  <body>
-    <aside>
-      <div><img id="user-image" /></div>
-    </aside>
-    <main> 
-      <section>
-        <h1 id="user-name"></h1>
-      </section>
-      <section>
-        <h3 class="account">@<span id="user-handle"></span><i class="fas fa-map-marker-alt"></i><span id="user-location"></span></h3>   
-      </section>
-      <section> 
-        <p id="user-description"></p>
-      </section>
-        <hr>
-      <section>
-        <p><span class="contact">Phone</span><span id="user-phone"></span></p>
-        <p><span class="contact">Address</span><span id="user-address"</span></p>
-        <p><span class="contact">Email</span><span id="user-email"></span></p>
-      </section>
-    </main>    
-    <script type="text/javascript" src="scripts/profile.js"></script>
-  </body>
+<html>
+   
+   <head>
+      <link href="css/profile.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+   </head>
+   <body>
+      <nav>
+            <span id="app-name">#stacker</span>
+            <section>
+               <span><a href="channels.html">Channels</a></span>
+               <span><a href="login.html">Logout</a></span>
+            </section>  
+      </nav>   
+      <aside>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Joe_Satriani_2005.jpg/200px-Joe_Satriani_2005.jpg" class="img-fluid">
+      </aside>
+      <main>
+         <h1>Ramses Trejo</h1>
+         <h2>@ramses</h2>
+         <span><i class="fas fa-map-marker-alt"></i> Toronto, ON</span>         
+         <p>
+            Ramses is a personable Instructor, specializing in Technology and Business, driven by enabling students achieve learning success. Exhilarated about use of digital technologies to motivate and engage students for learning in both face-to-face and online environments (blended).
+         </p>
+         <p>
+          Accomplished and passionate Business Consultant, Digital Marketer, Systems Architect and Learning enthusiast with close to 25 years of well-rounded international (Canada, USA, Mexico, South Korea, Norway) work experience.</p>
+         <section id="profile">
+            <article>
+               <span class="label">Phone</span><span class="value">416-343-3434</span>   
+            </article>
+            <article>
+                  <span class="label">Address</span><span class="value">64 Cool Rd., Toronto, ON</span>
+            </article>
+            <article>
+                  <span class="label">Email</span><span class="value">ramses@yorku.ca</span>
+            </article>
+         </section>
+      </main>
+   </body>
 </html>

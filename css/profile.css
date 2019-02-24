@@ -1,55 +1,125 @@
+
 * {
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
 }
-img {
-  border-radius: 50%;
-  width: 320px;
-  margin:25px;
+html, body {
+   height : 100%;
+   margin : 0px;
 }
+
+nav {
+	display: inline-block;
+	height : 5rem;
+	background-color: #1c1b43;
+	width : 100%;
+	float:left;
+}
+
+nav section {
+	float:right;
+	color : white;
+	display: inline-block;
+	line-height: 100%;	
+}
+
+nav section span {
+	font-size: 1rem;
+	line-height: 5rem;
+	display: inline-block;
+	padding: 0 1rem 0 2rem;
+}
+
+nav section span a {
+	color : white;
+	text-decoration: none;	
+}
+
+nav span#app-name {
+	color : white;	
+	font-size: 1.5rem;
+	line-height: 5rem;
+	float:left;
+}
+
 aside {
+  width: 35%;
+  display : inline-block;
+  height: 70%;
+  float :left;
+}
+
+aside img {
+	width: 20rem;
+  	height : auto;
+  	position: relative;
+  	top : 50%;
+  	left : 50%;
+  	transform: translate( -50% , -50%);
+	border-radius: 50%;
+}
+
+main {
+  width: 64%;
+  display: inline-block;  
+  height: 100%;
   float:left;
-  margin:35px;
-  width: 31%; 
 }
+
 h1 {
-  color:#471c9c;
-  font-weight: normal;
-  padding-top:30px;
-  margin-left:430px;
-  margin-bottom:.3em;
+  font-size : 3rem;
+  font-weight: 400;
+  margin-top :  1.5rem;  
+  margin-bottom:0rem;
+  color: #6600cc;	
+  padding-left : 0.5rem;
 }
-.account {
-  display:inline-block;
-  color:#471c9c;
-  padding-top:10px;
-  margin-top:-15px;
-  font-weight: normal;
-  margin-left:20px;
+h2 {ß
+  font-size : 1.5rem;
+  font-weight: 400;
+  margin-top :  0rem;    
+  margin-bottom:0rem;
+  color: #6600cc;	
+  padding: 0rem 10rem 1rem 2rem;
+  display : inline-block;
+
 }
-#user-handle{
-  margin-right2:150px; 
+
+main span {
+  color: #6600cc;		
 }
-#user-description {
-  color:#858b9b;
-  line-height:1.5;
-  margin-top:5px;
-}
-.contact {
-  color:#471c9c;
-  display:inline-block;
-  width:100px;
-  padding:8px;
-}
+
 p {
-  color:black;
-  margin-left:430px;
+	line-height: 2rem;
+	margin: 0.8rem 1rem;
+	font-size : 1.2rem;
+	color: 	#454341;	
 }
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #471c9c;
-    margin-left: 430px;
-    padding: 0;
+
+section#profile {
+	margin: 1.2rem 1rem;
+	border-top: 2px #6600cc solid;
+	padding-top: 3rem;
 }
+
+article {
+	line-height: 3rem;
+	margin-left : 2rem;
+	font-size : 1.2rem;	
+}
+
+article span.label {
+	font-weight: 600;
+	min-width: 8rem;
+	display: inline-block;
+}
+
+article span.value {
+	color: 	#454341;
+}
+
+
+
+
+
+

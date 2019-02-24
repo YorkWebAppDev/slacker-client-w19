@@ -3,27 +3,77 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+html, body {
+  height : 100%;
+}
+
+body > section {
+  position: relative;
+  top: 50%;
+  transform: translateY( -70%);
+  display2 : inline-block;
+  float:left;
+}
+
 aside {
   width: 50%;
   display : inline-block;
+  height: 100%;
+  float :left;
 }
 
 aside img {
   width: 80%;
   heigth : auto;
+  position: relative;
+  left : 50%;
+  transform: translateX( -50%);
+  border-radius: 2rem;
 }
 
 main {
-  width: 48%;
-  vertical-align:top;
+  width: 49%;
   display: inline-block;  
+  height: 100%;
+  float:left;
 }
 
-section, h1 {
-  display : inline-block;  
+ h1 { 
+  font-size : 4rem;
+  font-weight: 400;
+  margin-top :  1.5rem;  
+  margin-bottom:0.5rem;
+  color: #6600cc;
+}
+
+ h2 {
   width : 100%;
+  font-size : 2.5rem;
+  font-weight: 400;
+  margin-top :  1.5rem;  
+  margin-bottom:0.5rem;  
+  color: #6600cc;  
 }
 
+h3 {
+  font-size : 1.5rem;
+  font-weight: 400;
+  color: #a29e9b;    
+}
+
+
+input {
+    font-size: 1.2rem;  
+
+}
+
+input[type=submit] {
+    width: 6rem;
+    height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    background-color: #e7e6e6;
+}
 
 @media (max-width: 768px) {
 
